@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function is(c) {
+        let num = '012345789';
+        for (let i = 0; i < num.length; i++) {
+            if (c == num[i]) return true;
+            else return false;
+        }
+    }
+    function returnResult() {
+        let a='';
+        a=prompt('Nhap ky tu can kiem tra');
+        alert(is(a));
+
+    }
+  returnResult();
+</script>
+</body>
+</html>
